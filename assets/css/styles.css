@@ -93,9 +93,44 @@ top: 684px;
    }
   
 
-#carrito{
+#img-carrito{
   position: relative;
-width: 39px;
-height: 46px;
+  width: 39px;
+  height: 52px;
+  margin: -61px;
+  padding: 0px;
+}
+
+#img-carrito2{
+  position: relative;
+  width: 39px;
+  height: 52px;
+  margin: -33px;
+  padding: 3px;
+}
+
+.submenu #carrito{
+  display: none;
+}
+
+.submenu:hover #carrito{
+  display: block;
+  position: absolute;
+  right:0;
+
+  top:100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
+
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
 }
 
