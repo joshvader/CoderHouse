@@ -35,7 +35,7 @@
                     <li class="nav-item" role="presentation"><a class="nav-link active"
                             href="contacto.html">Contacto</a></li>
                 </ul>
-                <a href="compras.html"><img src="./assets/img/carrito.png" id="carrito" alt=""></a>
+                
             </div>
         </div>
     </nav>
@@ -62,15 +62,16 @@
                 <div class="heading">
                     <h2>Puede Escribir acá</h2>
                 </div>
-                <form id="Formulario" method="POST">
+                <form  class= "contact-form" id="form" action="https://formspree.io/f/mjvpqwrz"
+                method="POST">
                     <div
                         class="form-group"><label for="email">Nombre</label><input type="name" class="form-control" id="Nombre"  name="Nombre"/></div>
                     <div
                         class="form-group"><label for="email">Email</label><input type="email" class="form-control" id="Email" name="Email" /></div>
-            <div class="form-group"><label for="message">Message</label><textarea class="form-control" id="message"></textarea></div>
+            <div class="form-group"><label for="message">Mensaje</label><textarea class="form-control" id="message"></textarea></div>
             <div class="form-group">
                 <div class="form-row" style="margin: -1px;padding: 78px;height: 77px;width: 588px;">
-                    <div class="col-md-6 button" style="margin: 42px;"><button class="btn btn-primary btn-block" type="submit" id="Enviar">Enviar</button></div>
+                    <div class="col-md-6 button" style="margin: 42px;"><button class="btn btn-primary btn-block" type="submit" >Enviar</button></div>
                 </div>
             </div>
             </form>
@@ -94,9 +95,8 @@
     </footer>
 
 
-    <script src="./assets/js/JSON/productos.js"></script>
-    <script src="./assets/js/events/filtro.js"></script>
-    <script src="./assets/js/ajax.js"></script>
+    <script src="assets/js/functions/form.js"></script>
+    
     
 
 
